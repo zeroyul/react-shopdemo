@@ -1,0 +1,97 @@
+.mine{
+    .head{
+        height: 135px;
+        background: url(../../img/mineBg.png) no-repeat 100% 100%;
+        background-size: cover;
+        display: flex;
+        .headicon{
+            width: 60px;
+            height: 60px;
+            border-radius: 60px;
+            border:1px solid #fff;
+            margin: 30px 25px;
+            img{
+                border-radius:60px;
+
+            }
+
+        }
+        .name{
+            margin-top: 35px;
+            .name-load{
+                color:#fff;
+            }
+        }
+    }
+    .main-link{
+        i{
+            font-size:25px;
+        }
+        .order-link{
+            background:#fff;
+            width:100%;
+
+            .all-order{
+                div{
+                    display: flex;
+                }
+                span{
+                    margin-left:5px ;
+                    margin-right: 5px;
+                }
+                .look-all{
+                    font-size:14px;
+                    color:#666;
+                    i{
+                        font-size:16px;
+                    }
+                }
+                display:flex;
+                justify-content: space-between;
+                align-content: center;
+                line-height: 50px;
+                padding:0 15px;
+                border-bottom: 3px solid #f0f0f0;
+
+            }
+            .four-order{
+                display:flex;
+                justify-content:space-between;
+                div{
+                    width:25%;
+                    text-align: center;
+                    padding: 10px 0;
+                    &:nth-child(4) a{
+                            border-right:none;
+                        }
+                    a{
+                        display:inline-block;
+                        width:100%;
+                        border-right: 2px solid #f0f0f0;
+
+                    }
+                }
+            }
+        }
+        ul{
+            width:100%;
+
+
+            margin-top:10px;
+            display:flex;
+            flex-wrap:wrap;
+            li{
+                width:33.3%;
+                padding:15px 0;
+                background:#fff;
+                text-align:center;
+                border-bottom:2px solid #f0f0f0;
+                &:nth-child(3n+2){
+                    border-right:2px solid #f0f0f0;
+                    border-left: 2px solid #f0f0f0;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+.app-nav{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left:0;
+  bottom:0;
+  z-index: 1000;
+  background:#333;
+  .selected{
+    color:#ff671b;
+  }
+
+  >div{
+    width:25%;
+
+    &:nth-child(4) a{
+      border-right:none;
+
+    }
+    a{
+      text-align: center;
+      border-right: 1px solid #fff;
+      display:inline-block;
+      width:100%;
+      color:#fff;
+      margin:10px 0;
+      i{
+        font-size: 22px;
+      }
+    }
+  }
+}

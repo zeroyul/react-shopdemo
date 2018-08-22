@@ -1,0 +1,37 @@
+.classify-item{
+    height: auto;
+    .head{
+        width:100%;
+        text-align: center;
+        padding:15px 10px;
+        position: relative;
+
+        span{
+            display: inline-block;
+            padding: 5px 10px;
+            background: #fff;
+        }
+        .line{
+            border-top:1px solid #000;
+            width:80%;
+            position:absolute;
+            top:30px;
+            left:10%;
+            z-index: -1;
+        }
+
+    }
+    .main{
+            width:100%;
+            display:flex;
+            justify-content: spaceBetween;
+            flex-wrap:wrap;
+            li{
+                width:33%;
+                margin-bottom:10px;
+                div{
+                    text-align:center;
+                }
+            }
+        }
+}

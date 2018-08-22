@@ -1,0 +1,52 @@
+{
+"swiper":[
+  {"id":"1","imgUrl":"http://t.image.air-cooking.com/banner/home/20180517/5afd2f14cf826.jpg"},
+  {"id":"2","imgUrl":"http://t.image.air-cooking.com/banner/home/20180110/5a55ddf1b48ea.png"},
+  {"id":"3","imgUrl":"http://t.image.air-cooking.com/banner/home/20180110/5a55dd16b308c.jpg"},
+  {"id":"4","imgUrl":"http://t.image.air-cooking.com/banner/home/20180110/5a55dd986495b.jpg"}
+],
+"classify":[
+  {
+    "classifyone":"肉类",
+    "fatherId":"0",
+    "des":"玉盘珍羞直万钱",
+    "imgUrl":"http://t.image.air-cooking.com/category/bg/20180112/5a5852eed9860.jpg",
+    "recommond":[
+    {"id":"1","price":"2.0","name":"（组合E=A+2B）川宁 - 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"},
+    {"id":"2","price":"2.0","name":" 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"},
+    {"id":"3","price":"2.0","name":"（组合E=A+2B）川宁 - 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"}
+    ]
+    },{
+    "classifyone":"酒与酒具",
+    "fatherId":"1",
+    "des":"花笺茗碗的宁静",
+    "imgUrl":"http://t.image.air-cooking.com/category/bg/20180112/5a5852eed9860.jpg",
+    "recommond":[
+    {"id":"4","price":"2.0","name":"（组合E=A+2B）川宁 - 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"},
+    {"id":"5","price":"2.0","name":" 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"},
+    {"id":"6","price":"2.0","name":"（组合E=A+2B）川宁 - 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"}
+    ]
+    },{
+    "classifyone":"饮品小食",
+    "fatherId":"2",
+    "des":"水乳交融的甜蜜",
+    "imgUrl":"http://t.image.air-cooking.com/category/bg/20180112/5a5852eed9860.jpg",
+    "recommond":[
+    {"id":"7","price":"2.0","name":"（组合E=A+2B）川宁 - 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"},
+    {"id":"8","price":"2.0","name":" 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"},
+    {"id":"9","price":"2.0","name":"（组合E=A+2B）川宁 - 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"}
+    ]
+    },{
+    "classifyone":"咖啡与茶",
+    "fatherId":"3",
+    "des":"水乳交融的甜蜜",
+    "imgUrl":"http://t.image.air-cooking.com/category/bg/20180112/5a5852eed9860.jpg",
+    "recommond":[
+    {"id":"7","price":"2.0","name":"（组合E=A+2B）川宁 - 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"},
+    {"id":"8","price":"2.0","name":" 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"},
+    {"id":"9","price":"2.0","name":"（组合E=A+2B）川宁 - 精品锡兰红茶 50g ","imgUrl":"http://t.image.air-cooking.com/product/list/20170424/58fd648b09fcd.jpg"}
+    ]
+    }
+]
+
+}
