@@ -20,7 +20,7 @@ import BuyCar from './containers/BuyCar/index.js'//购物车页
 import Mine from './containers/Mine/index.js'//个人中心页
 
 import NotFound from './containers/404.js'//notfound
-import Index from './containers/index.js'//首页
+import Index from './containers/Theme/index.js'//首页
 
 import SetUp from './containers/SetUp/index.js'//设置退出页
 import ProductList from './containers/ProductList/index.js'//商品列表页
@@ -55,9 +55,9 @@ class App extends Component {
 
 
 
-                {/*注销按钮的显示隐藏*/}
+                {/*注销按钮的显示隐藏
                 {this.props.auth.user}
-                {this.props.auth.isAuth?<button onClick={this.props.logout}>注销</button>:null}
+                {this.props.auth.isAuth?<button onClick={this.props.logout}>注销</button>:null}*/}
 
 
 

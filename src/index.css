@@ -284,7 +284,14 @@ select {
     zoom: 1;
 
 }
+
 /* 图片左浮 */
 .img-float-left{
     float: left;
+}
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
 }

@@ -2,7 +2,7 @@
 * @Author: zeroyul
 * @Date:   2018-08-21 10:56:35
 * @Last Modified by:   zeroyul
-* @Last Modified time: 2018-08-21 15:39:07
+* @Last Modified time: 2018-08-23 16:37:53
 */
 
 import React from 'react'
@@ -19,7 +19,7 @@ class Item extends React.Component {
         const data = this.props.data
         //是否有数量
         const num = 3
-        console.log(data)
+
         return (
             <div className="list-item">
 

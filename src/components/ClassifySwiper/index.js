@@ -2,7 +2,7 @@
 * @Author: zeroyul
 * @Date:   2018-08-17 10:37:56
 * @Last Modified by:   zeroyul
-* @Last Modified time: 2018-08-22 12:01:39
+* @Last Modified time: 2018-08-22 15:04:56
 */
 
 import React from 'react'
@@ -24,7 +24,7 @@ class ClassifySwiper extends React.Component {
     }
     componentDidMount(){
         //console.log(this.state.currentIndex)
-        console.log(this.props.data)
+
          //swiper
         const that = this;
         const swiper =  new Swiper(this.swiperID,{
@@ -40,21 +40,27 @@ class ClassifySwiper extends React.Component {
                 },
             })
         this.setState({
-            swiper:swiper
+            swiper:swiper,
+            currentIndex:that.props.oneId
         })
+
+
     }
 
 
 
     componentDidUpdate(){
-        console.log(this.props.data)
-        //数据更新之后更新swiper
+
+        //数据更新之后更新swiper  滑动到指定位置
+
         this.state.swiper.update()
+        this.state.swiper.slideTo(this.state.currentIndex,1000,false);
+
 
     }
     render() {
         const data = this.props.data;
-        console.log(data)
+
 
         return (
             <div className="classify-swiper">
@@ -84,10 +90,7 @@ class ClassifySwiper extends React.Component {
 
     }
 
-    /*
 
-
-     */
 
     clickHandler(index,e){
             console.log(index)

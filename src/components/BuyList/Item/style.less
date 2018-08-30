@@ -1,0 +1,87 @@
+.buycar-item {
+    background: greenyellow;
+    height: 100%;
+    margin: 3px 2.5%;
+    display: -ms-flexbox;
+    display: flex;
+    width: 95%;
+
+    >div:nth-child(1) {
+        width: 10%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        i{
+            font-size: 30px;
+            display:inline-block;
+            padding:20px 0;
+        }
+        .haschosen{
+            color: #ff671b;
+        }
+    }
+    >div:nth-child(2) {
+        width: 30%;
+        padding: 10px;
+        img{
+            float: left;
+        }
+    }
+    >div:nth-child(3) {
+        width: 45%;
+        padding: 10px 8px;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        .name {
+            font-size: 14px;
+            height: 36px;
+            line-height: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            /*! autoprefixer: off */
+            -webkit-box-orient: vertical;
+        }
+    }
+    >div:nth-child(4) {
+        width: 15%;
+        .num-control{
+            height:100%;
+            display:flex;
+            flex-direction:column;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            section{
+                flex:1;
+                width:35px;
+                display:flex;
+                flex:1;
+                justify-content:center;
+                align-items:center;
+                border-left:1px solid red;
+                &:nth-child(2){
+                    border-bottom:1px solid red;
+                    border-top:1px solid red;
+                }
+            }
+        }
+        .del-btn{
+            display:flex;
+            flex-direction:row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            height:100%;
+            .del-right{
+                width:35px;
+                height:100%;
+                background:red;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+        }
+    }
+}

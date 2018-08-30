@@ -2,7 +2,7 @@
 * @Author: zeroyul
 * @Date:   2018-08-14 10:46:57
 * @Last Modified by:   zeroyul
-* @Last Modified time: 2018-08-21 17:21:32
+* @Last Modified time: 2018-08-23 15:26:07
 */
 
 
@@ -27,7 +27,7 @@ class Mine extends React.Component {
         console.log(this.props)
         return (
             <div className="mine">
-                <h1>我是个人中心页面</h1>
+
                 <div className="head">
                     <div className="headicon">
                         {

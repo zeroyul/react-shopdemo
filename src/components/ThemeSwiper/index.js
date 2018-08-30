@@ -2,7 +2,7 @@
 * @Author: zeroyul
 * @Date:   2018-08-14 16:26:43
 * @Last Modified by:   zeroyul
-* @Last Modified time: 2018-08-16 17:42:42
+* @Last Modified time: 2018-08-22 15:13:37
 */
 
 import React from 'react'
@@ -15,12 +15,14 @@ import 'swiper/dist/css/swiper.min.css'
 class ThemeSwiper extends React.Component {
     constructor(props) {
         super(props);
-
+        this.state=({
+          swiper:{},//swiper组件的初始化 供其它事件调用
+        })
     }
     componentDidMount(){
 
             //swiper
-            new Swiper(this.swiperID,{
+            const swiper = new Swiper(this.swiperID,{
               loop:true,
               slidesPerView:1.5,
               centeredSlides:true,
@@ -28,9 +30,18 @@ class ThemeSwiper extends React.Component {
               pagination:{
                 el:this.paginateID,
               },
-              observer: true,
+              observer: true
+            })
+            this.setState({
+                swiper:swiper
             })
 
+
+    }
+    componentDidUpdate(){
+      //数据更新之后更新swiper  滑动到指定位置
+
+      this.state.swiper.update()
     }
 
     render() {

@@ -2,7 +2,7 @@
 * @Author: zeroyul
 * @Date:   2018-08-20 15:44:51
 * @Last Modified by:   zeroyul
-* @Last Modified time: 2018-08-21 15:41:48
+* @Last Modified time: 2018-08-23 17:19:46
 */
 
 import React from 'react'
@@ -26,7 +26,7 @@ class List extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="list-container">
 
                 {
                     this.state.data.length
@@ -52,7 +52,9 @@ class List extends React.Component {
     }
 
     loadFirstPageData(){
-        let result = getProductList(0);
+        console.log(this.props.keyword)
+        const keyword = this.props.keyword || ''
+        let result = getProductList(0,keyword);
         this.resultHandle(result)
     }
 
@@ -73,14 +75,13 @@ class List extends React.Component {
     //数据处理
     resultHandle(result){
         result.then(res => {
-            console.log(res,res.hasMore)
             const hasMore = res.hasMore
             const data = res.data
             this.setState({
                 hasMore:hasMore,
                 data:this.state.data.concat(data)
             })
-            console.log(this.state.data)
+
         }).catch(err => {
             console.log(err)
         })

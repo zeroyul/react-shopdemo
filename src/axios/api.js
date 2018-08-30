@@ -2,7 +2,7 @@
 * @Author: zeroyul
 * @Date:   2018-08-06 17:10:44
 * @Last Modified by:   zeroyul
-* @Last Modified time: 2018-08-20 14:00:52
+* @Last Modified time: 2018-08-27 14:59:42
 */
 
 import {get,post} from './http.js'
@@ -40,5 +40,11 @@ export function getProductList(){
 export function getProductDetail(params){
     console.log(params)
     const result=get('mock/product/data.json',params);
+    return result;
+}
+
+//购物车商品数据
+export function getBuyCarLists(){
+    const result=get('mock/buyCarList/data.json');
     return result;
 }

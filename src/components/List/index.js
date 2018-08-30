@@ -2,7 +2,7 @@
 * @Author: zeroyul
 * @Date:   2018-08-20 15:53:43
 * @Last Modified by:   zeroyul
-* @Last Modified time: 2018-08-21 15:41:25
+* @Last Modified time: 2018-08-23 16:36:30
 */
 
 import React from 'react'
@@ -17,7 +17,7 @@ class List extends React.Component {
     }
     render() {
         const data = this.props.data
-        console.log(data)
+
         return (
             <div className="list-container">
 

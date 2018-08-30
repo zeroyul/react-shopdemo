@@ -2,7 +2,7 @@
 * @Author: zeroyul
 * @Date:   2018-08-15 11:28:37
 * @Last Modified by:   zeroyul
-* @Last Modified time: 2018-08-20 09:50:05
+* @Last Modified time: 2018-08-22 14:26:40
 */
 
 import React from 'react'
@@ -23,12 +23,15 @@ class Item extends React.Component {
         return (
             <section className="theme-classify-item">
                     <div className="top clear">
+                        <Link to={{pathname:'App/Classify',query:{index:'2'}}}  className="clear">
                         <img src={data.imgUrl} alt=""/>
+
                         <div className="classify-des">
                         <h2>&nbsp;{data.classifyone}</h2>
                         <p>{data.des}</p>
                         <span>Show Now</span>
                         </div>
+                        </Link>
                     </div>
                     <ul>
                         {data.recommond.map((item,index)=>{
