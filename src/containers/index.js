@@ -1,8 +1,8 @@
 /*
 * @Author: zeroyul
 * @Date:   2018-08-08 17:04:09
-* @Last Modified by:   zeroyul
-* @Last Modified time: 2018-08-17 09:46:37
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-09-05 22:06:59
 */
 
 import React from 'react'
@@ -57,7 +57,6 @@ class Index extends React.Component {
               },
               observer:true
             })
-
         }
 
     render() {

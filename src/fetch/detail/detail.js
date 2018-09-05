@@ -1,7 +1,7 @@
 import { get } from '../get'
 
 export function getInfoData() {
-   const result = get('/mock/fetchNeed/index.json')
+   const result = get('http://localhost:3000/mock/fetchNeed/index.json')
    return result
 }
 
