@@ -71,10 +71,10 @@ class Index extends React.Component {
 
     render() {
         const match = this.props.match;
-        const items = [{id:"1",imgUrl:"http://t.image.air-cooking.com/banner/home/20180517/5afd2f14cf826.jpg"},
-    {id:"2",imgUrl:"http://t.image.air-cooking.com/banner/home/20180110/5a55ddf1b48ea.png"},
-    {id:"3",imgUrl:"http://t.image.air-cooking.com/banner/home/20180110/5a55dd16b308c.jpg"},
-    {id:"4",imgUrl:"http://t.image.air-cooking.com/banner/home/20180110/5a55dd986495b.jpg"}];
+        const items = [{id:"1",imgUrl:"../../img/swip1.jpg"},
+    {id:"2",imgUrl:"../../img/swip1.jpg"},
+    {id:"3",imgUrl:"../../img/swip1.jpg"},
+    {id:"4",imgUrl:"../../img/swip1.jpg"}];
 
 
         return (
